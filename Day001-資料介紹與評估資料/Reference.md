@@ -58,7 +58,7 @@
  * True Positive（TP）：預測爲正例，實際爲正例
  * False Positive（FP）：預測爲正例，實際爲負例
  * True Negative（TN）：預測爲負例，實際爲負例
- * False Negative（FN）：預測爲正例，實際爲負例
+ * False Negative（FN）：預測爲負例，實際爲正例
  
  ![PIC](https://pic1.xuehuaimg.com/proxy/csdn/https://img-blog.csdnimg.cn/20190307201742301.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhbnhpYTE5OTU=,size_16,color_FFFFFF,t_70)
  
