@@ -67,9 +67,6 @@
  * Recall : 正確預測的正樣本數佔真實正樣本總數的比值，也就是從這些樣本中能夠正確找出多少個正樣本。
  * F-score : 相當於precision和recall的調和平均，recall和precision任何一個數值減小，F-score都會減小，反之，亦然。
  * specificity : 相對於sensitivity（recall）而言的，指的是正確預測的負樣本數佔真實負樣本總數的比值，也就是我能從這些樣本中能夠正確找出多少個負樣本。
- 參考：
- [深度學習中](https://www.twblogs.net/a/5c8416bcbd9eee35fc13e15f)
- [TP FP FN TN precision Recall Accuracy](https://www.twblogs.net/a/5b8e7ef72b71771883459e91)
  
 
 
