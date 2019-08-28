@@ -68,7 +68,74 @@
  * F-score : 相當於precision和recall的調和平均，recall和precision任何一個數值減小，F-score都會減小，反之，亦然。
  * specificity : 相對於sensitivity（recall）而言的，指的是正確預測的負樣本數佔真實負樣本總數的比值，也就是我能從這些樣本中能夠正確找出多少個負樣本。
  
+ 
+## MAE vs MSE
 
+參考：[如何選擇回歸損失函數？](https://mp.weixin.qq.com/s/Xbi5iOh3xoBIK5kVmqbKYA)
 
+|    |MAE|MSE|
+|---|---|---|
+|特性|較同原資料|容易被放大|
+|離群值|不適|適合|
+|用途||適合商業模型|
+|準確|數字越小|數字越小|
+|迴歸|次數多|次數少|
+|梯形|較平|較陡|
+
+## Kaggle
+- 包含大量資料科學數據的平台
+- 提供「競賽」解題，可上傳Modle和答案來取得排名
+- 透過大量「資料集」來發想並解決問題
+- Overview介紹資料和來源
+- Data資料字典
+- Karnel欲解決的問題
+
+範例：[[機器學習專案] Kaggle競賽-鐵達尼號生存預測(Top 3%)](https://medium.com/@yulongtsai/https-medium-com-yulongtsai-titanic-top3-8e64741cc11f)
+- 使用探索性分析(EDA)，取出多個資料因子，通常若有過多「空值」較不適合，預先進行「資料清洗」(合併欄位、補空值等)。
+- 本篇文章最後用5個特徵(性別、艙等、票價、是否成年、連結)來達到Top3%的公開排名(301/11455)，來預測鐵達尼號的存活率。
+
+範例：[[資料分析&機器學習] 第4.1講 : Kaggle競賽-鐵達尼號生存預測(前16%排名)](https://medium.com/jameslearningnote/資料分析-機器學習-第4-1講-kaggle競賽-鐵達尼號生存預測-前16-排名-a8842fea7077)
+- 較初階的文章
+- 結合Kaggle討論區文章以及參考閱讀獲得前10%的成績甚至是前5%
+- 以正式比賽來說前10%就可以獲得一個銅牌成就
+
+範例：[[機器學習專案]Kaggle競賽-kkbox顧客流失預測(Top5%)](https://medium.com/@yulongtsai/kaggle-kkbox-churn-prediction-top5-c0ea4c9b3f1a)
+- 未來可能運用，預測和分群客人是否買單？並可回傳檢查。
+
+範例：[新手玩Kaggle入門](http://terrence.logdown.com/posts/1224642-introduction-to-novice-kaggle)
+- 在Kaggle送出第一個submission
+
+範例：[Kaggle-MoneyBall](https://www.kaggle.com/wduckett/moneyball-mlb-stats-19622012)
+- 分析大聯盟資料，創建「低預算的明星球隊」
+- 評估上壘率(OBP)和打擊率(SLG)
+- 來源baseball-reference.com
+
+## Uber
+
+### 核心問題為何？
+參考 : [[譯]解密 Uber 資料科學團隊路徑選擇演算法的優化之路](https://codertw.com/程式語言/119643/)
+- 找出最短路徑，提升載客率
+- 使用ETA推算特性
+
+### 核心問題為何？
+[Uber Movement](https://movement.uber.com/explore/taipei/travel-times/query?si=34&ag=taz&dt[tpb]=ALL_DAY&dt[dr][sd]=2018-12-01&dt[dr][ed]=2018-12-31&dt[wd;]=1,2,3,4,5,6,7&cd=&sa;=&sdn=&lng.=121.5244378&z.=12&lat.=25.0735791&ti=77&ta;=&tdn=&lang=en-US)
+- 路段行駛時間
+- 每週路段平均時間
+- 各時段行駛時間
+
+[氣象開放資料平台](https://opendata.cwb.gov.tw/index)
+- 台灣未來1週天氣預報
+- 過去1小時雨量觀測資料
+
+[交通部即時路況資訊](https://www.motc.gov.tw/ch/home.jsp?id=817&parentpath=0,4)
+- 各路段行駛時間
+
+### 蒐集而來的資料型態為何？
+
+字串、數字(結構性資料)
+
+### 你要回答的問題，其如何評估？
+
+建立對照組和實驗組，評估優化和無優化的結果，可能會有些bias(遊行、路障)
 
  
