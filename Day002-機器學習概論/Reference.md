@@ -9,6 +9,8 @@
 - [Stanford 李飛飛教授 TED Talk - 如何教懂電腦看圖像](https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures?language=zh-tw)
 聽聽人工智慧頂尖學者分享 AI 的知識吧
 
+- [AlphaZero - 維基百科](https://zh.wikipedia.org/wiki/AlphaZero)
+
 - [人工智慧、機器學習、深度學習介紹](http://tensorflowkeras.blogspot.com/2017/06/blog-post_15.html)
 
 ![PIC](https://1.bp.blogspot.com/-GW4XoDGbCbU/WUNpbhxvaXI/AAAAAAAAAWs/llW5A9OG8qA1UM-HiJbGSOFiX7M7c3K1ACLcBGAs/s1600/image011.tif)
