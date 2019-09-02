@@ -1,6 +1,6 @@
 # 參考資料
 ## Sample Code & 作業內容
-請參考範例程式碼 Day_007_Feature_Types.ipynb: 房價預測
+請參考範例程式碼 Day_007_Feature_Types.ipynb: 房價預測<br>
 執行作業範例Day_007_HW.ipynb：鐵達尼生存預測
 
 * 作業1 : <br>
