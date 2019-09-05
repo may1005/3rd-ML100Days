@@ -39,4 +39,37 @@ Python資料視覺化主要有三大套件：
 ![](https://miro.medium.com/max/2380/1*409ArBhlxniQ4q657INbpA.png)<br>
 
 如果不想要每次在jupyter notebook顯示都寫.show()，可以在jupyter notebook加上%matplotlib inline<br>
-![](https://miro.medium.com/max/2420/1*llN9LEOvTMikRcVHXh7SXw.png)
+![](https://miro.medium.com/max/2420/1*llN9LEOvTMikRcVHXh7SXw.png)<br>
+
+##  zip 用法
+[Python 中 zip() 函數用法實例教程](http://puremonkey2010.blogspot.com/2015/10/python-python-zip.html)
+
+- zip() 是 Python 的一個內建函數，它接受一系列可迭代的對象作為參數，
+- 將對象中對應的元素打包成一個個 tuple（元組），然後返回由這些 tuples 組成的 list（列表）。
+- 若傳入參數的長度不等，則返回list的長度和參數中長度最短的對象相同。
+- 利用*號操作符，可以將 list unzip（解壓）
+
+```python
+>>> a = [1,2,3]
+>>> b = [4,5,6]
+>>> c = [4,5,6,7,8]
+>>> zipped = zip(a,b)
+>>> zipped
+[(1, 4), (2, 5), (3, 6)]
+>>> zip(a,c)
+[(1, 4), (2, 5), (3, 6)]
+>>> zip(*zipped)
+[(1, 2, 3), (4, 5, 6)]
+```
+
+##  string / tuple / list / dictionary差異
+[Python笔记：string，tuple，list，dictionary的区别(之一，基本用法与区别)](https://blog.csdn.net/s09094031/article/details/80302588)
+
+| Name | accessing | expressions |
+|:-----:|:-----:|:------:|
+| string   |  number index  |   number index |
+| tuple   |  number index  |   number index |
+| list  |  number index  |   number index|
+| dictionary   |  number index |   number index |
+
+
