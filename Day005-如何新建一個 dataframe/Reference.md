@@ -36,9 +36,10 @@ Python資料視覺化主要有三大套件：
 
 首先要使用matplot的話，跟numpy還有pandas一樣起手式先輸入matplotlib.pyplot as plt。如果要畫折線圖使用 plt.plot，一開始我們先只放一個參數，這樣只會有y的資料，x會是預設的0,1,2,3…。顯示出圖片需要加上.show() 否則只會顯示出這樣的訊息[<matplotlib.lines.Line2D at 0x1100cfe48>]<br>
 
-![](https://miro.medium.com/max/2380/1*409ArBhlxniQ4q657INbpA.png)<br>
+![](https://miro.medium.com/max/2380/1*409ArBhlxniQ4q657INbpA.png)<br><br>
 
 如果不想要每次在jupyter notebook顯示都寫.show()，可以在jupyter notebook加上%matplotlib inline<br>
+
 ![](https://miro.medium.com/max/2420/1*llN9LEOvTMikRcVHXh7SXw.png)<br>
 
 ##  zip 用法
@@ -67,9 +68,9 @@ Python資料視覺化主要有三大套件：
 
 | Name | accessing | expressions |
 |:-----:|:-----:|:------:|
-| string   |  number index  |   number index |
-| tuple   |  number index  |   number index |
-| list  |  number index  |   number index|
-| dictionary   |  number index |   number index |
+| string   |  number index  |   “abcd” |
+| tuple   |  number index  |   (‘a’,‘b’,‘c’,‘d’,‘abcd’) |
+| list  |  number index  |   [‘a’,‘b’,‘c’,‘d’,‘abcd’]|
+| dictionary   |  number index |   {‘1’:‘a’,‘2’:‘b’} |
 
 
