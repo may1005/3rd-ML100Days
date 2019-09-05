@@ -10,3 +10,12 @@
 思考一下，試著舉出今天五種類型以外的一種或多種資料類型，你舉出的新類型是否可以歸在三大類中的某些大類? 所以三大類特徵中，哪一大類處理起來應該最複雜?
 
 作業請提交Day_007_HW.ipynb
+
+## Data下載
+* [打包下載](http://ai100.cupoy.com/file-download/part02/Part02.7z)
+* [house_test.csv.gz](http://ai100.cupoy.com/file-download/part02/house_test.csv.gz)
+* [house_train.csv.gz](http://ai100.cupoy.com/file-download/part02/house_train.csv.gz)
+* [taxi_data1.csv](http://ai100.cupoy.com/file-download/part02/taxi_data1.csv)
+* [taxi_data2.csv](http://ai100.cupoy.com/file-download/part02/taxi_data2.csv)
+* [titanic_test.csv](http://ai100.cupoy.com/file-download/part02/titanic_test.csv)
+* [titanic_train.csv](http://ai100.cupoy.com/file-download/part02/itanic_train.csv)
