@@ -27,4 +27,16 @@
 可以到這個 [github repo](https://github.com/guipsamora/pandas_exercises) 挑戰！<br><br>
 ![](https://ai100-fileentity.cupoy.com/3rd/homework/D5/1566981467917/large)
 ## %matplotlib inline
-[網址](https://medium.com/jameslearningnote/資料分析-機器學習-第2-5講-資料視覺化-matplotlib-seaborn-plotly-75cd353d6d3f)
+[資料視覺化(Matplotlib, Seaborn, Plotly)](https://medium.com/jameslearningnote/資料分析-機器學習-第2-5講-資料視覺化-matplotlib-seaborn-plotly-75cd353d6d3f)<br>
+
+Python資料視覺化主要有三大套件：
+1. Matplotlib
+2. Seaborn
+3. Plotly<br>
+
+首先要使用matplot的話，跟numpy還有pandas一樣起手式先輸入matplotlib.pyplot as plt。如果要畫折線圖使用 plt.plot，一開始我們先只放一個參數，這樣只會有y的資料，x會是預設的0,1,2,3…。顯示出圖片需要加上.show() 否則只會顯示出這樣的訊息[<matplotlib.lines.Line2D at 0x1100cfe48>]<br>
+
+![](https://miro.medium.com/max/2380/1*409ArBhlxniQ4q657INbpA.png)<br>
+
+如果不想要每次在jupyter notebook顯示都寫.show()，可以在jupyter notebook加上%matplotlib inline<br>
+![](https://miro.medium.com/max/2420/1*llN9LEOvTMikRcVHXh7SXw.png)
