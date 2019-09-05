@@ -7,7 +7,7 @@
 2-3. 將 AMT_GOOD_PRICE 的 NAs 以眾數填補<br>
 
 請參考範例程式碼Day_011_handle_outliers.ipynb，作業請提交Day_011_HW.ipynb
-##Data下載
+## Data下載
 * [打包下載](http://ai100.cupoy.com/file-download/part01/Part01.7z)
 * [application_test.csv](http://ai100.cupoy.com/file-download/part01/application_test.csv)
 * [application_train.csv](http://ai100.cupoy.com/file-download/part01/application_train.csv)
