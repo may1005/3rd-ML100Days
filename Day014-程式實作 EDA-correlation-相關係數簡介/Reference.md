@@ -1,4 +1,9 @@
 # 參考資料
+## Sample Code & 作業內容
+執行範例程式碼Day_014_correlation_example.ipynb，使得對相關係數有更直接的了解
+作業：參考範例程式碼，模擬一組負相關的資料，並計算出相關係數以及畫出 scatter plot
+
+作業請提交Day_014_HW.ipynb
 ## Data下載
 * [打包下載](http://ai100.cupoy.com/file-download/part01/Part01.7z)
 * [application_test.csv](http://ai100.cupoy.com/file-download/part01/application_test.csv)
