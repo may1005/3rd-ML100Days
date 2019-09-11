@@ -15,3 +15,11 @@
 * [taxi_data2.csv](http://ai100.cupoy.com/file-download/part02/taxi_data2.csv)
 * [titanic_test.csv](http://ai100.cupoy.com/file-download/part02/titanic_test.csv)
 * [titanic_train.csv](http://ai100.cupoy.com/file-download/part02/itanic_train.csv)
+
+## 迴歸
+
+| | 線性| 羅吉斯 |
+|:-----:|:-----:|:-----:|
+|  Meaning |  常用於產出結果數字 | 常用於分類（二元或多類別）|
+| Result   |  數值  | 0-1的機率，二元(True or False) |
+| Sample   |  我會生出幾個小孩？  |  這群小孩，男生的機率？ |
