@@ -29,3 +29,29 @@
 * [POS_CASH_balance.csv](http://ai100.cupoy.com/file-download/part01/POS_CASH_balance.csv)
 * [previous_application.csv](http://ai100.cupoy.com/file-download/part01/previous_application.csv)
 * [sample_submission.csv](http://ai100.cupoy.com/file-download/part01/sample_submission.csv)
+
+## 連續型離散化優點
+- 不用另外處理outliner
+- 非線性迴歸擬合度高
+
+## 迴歸
+例如y為人類活動力，a為權重，x1為連續型的年齡1-99歲<br>
+將連續行的y=ax1+d，<br>
+化解為非線性的y=ax1+bx2+cx3+d，<br>
+其中，x1為1-30歲的青年人，x2為31-60的中年人，x3為61-99的老年人，<br>
+可再依照權重調配迴歸線。<br><br>
+
+若是一個29歲的人，<br>
+則x1=1，x2=0，x3=0。<br>
+
+## Over Fitting vs Under Fitting
+- Over Fitting : Training Model的效度太高，但是Test的結果很差
+- Under Fitting : Training Model的效度太低
+
+通常Over Fitting都會等Test才會發現，<br>
+比較預測值和實際值，求MSE越小越好。
+
+## Pandas.cut 相關API
+[Pandas.cut相關參數](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.cut.html#pandas.cut)<br>
+[label應用](https://medium.com/@morris_tai/pandas%E7%9A%84cut-qcut%E5%87%BD%E6%95%B8-93c244e34cfc)
+
