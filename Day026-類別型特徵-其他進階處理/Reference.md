@@ -1,10 +1,12 @@
 # 參考資料
 ## Sample Code & 作業內容
-作業1 : 請仿照範例Day_025_Mean_Encoder.ipynb，將鐵達尼範例中的類別型特徵改用均值編碼實作一次。
+本範例中，將數值型特徵做類別型編碼
 
-作業2 : 觀察鐵達尼生存預測中，均值編碼與標籤編碼兩者比較，哪一個效果比較好? 可能的原因是什麼?
+作業1 : 參考範例Day_026_CountEncoder_and_FeatureHash.ipynb，將鐵達尼的艙位代碼( 'Cabin' )欄位使用特徵雜湊 / 標籤編碼 / 目標均值編碼三種轉換後，與其他類別型欄位一起預估生存機率。
 
-作業請提交Day_025_HW.ipynb
+作業2 : 承上題，三者比較效果何者最好?
+
+作業請提交Day_026_HW.ipynb
 
 ## Data下載
 - [打包下載](http://ai100.cupoy.com/file-download/part02/Part02.7z)
