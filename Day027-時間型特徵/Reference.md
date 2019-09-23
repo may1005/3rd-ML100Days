@@ -1,10 +1,10 @@
 # 參考資料
 ## Sample Code & 作業內容
-作業1 : 請仿照範例Day_025_Mean_Encoder.ipynb，將鐵達尼範例中的類別型特徵改用均值編碼實作一次。
+作業1 : 對照範例Day_027_DayTime_Features.ipynb，試著加入星期幾 (day of week) 與第幾周 (week of year )這兩項特徵，看看結果會比原本只有時間特徵分解更好或更差?
 
-作業2 : 觀察鐵達尼生存預測中，均值編碼與標籤編碼兩者比較，哪一個效果比較好? 可能的原因是什麼?
+作業2 : 對照範例的日週期效果，試著參考投影片完成年週期與周週期的特徵 (也可以用你自己想到的方式)，看看結果會比範例中的結果更好或更差?
 
-作業請提交Day_025_HW.ipynb
+作業請提交Day_027_HW.ipynb
 
 ## Data下載
 - [打包下載](http://ai100.cupoy.com/file-download/part02/Part02.7z)
