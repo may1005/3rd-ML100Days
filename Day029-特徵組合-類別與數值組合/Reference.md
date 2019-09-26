@@ -1,12 +1,11 @@
 # 參考資料
 ## Sample Code & 作業內容
-請參閱範例Day_028_Feature_Combination.ipynb中的計程車費率預估
+請參考範例Day_029_GroupBy_Encoder.ipynb
 
-作業1 : 參考今日教材，試著使用經緯度一圈的長度比這一概念，組合出一個新特徵，再觀察原特徵加上新特徵是否提升了正確率?
+作業1 : 試著使用鐵達尼號的例子，創立兩種以上的群聚編碼特徵( mean、median、mode、max、min、count 均可)
+作業2 : 將上述的新特徵，合併原有的欄位做生存率預估，結果是否有改善?
 
-作業2 : 試著只使用新特徵估計目標值(忽略原特徵)，效果跟作業1的結果比較起來效果如何?
-
-作業請提交Day_028_HW.ipynb
+作業請提交Day_029_HW.ipynb
 
 ## Data下載
 - [打包下載](http://ai100.cupoy.com/file-download/part02/Part02.7z)
