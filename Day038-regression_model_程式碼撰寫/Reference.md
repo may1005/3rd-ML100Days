@@ -1,4 +1,7 @@
 # 參考資料
 ## Sample Code & 作業內容
-請搜尋目標為多標籤問題 (Multi-label) 的機器學習案例 (Hint: 服飾)，了解其資料來源、目標以及評估指標為何
-請點擊檢視範例，作業請提交Day_035_HW.ipynb
+作業１：請改用 sklearn.datasets 中除了範例以外至少兩組 datasets 來訓練自己的回歸模型 (根據不同資料的選擇適合的模型)
+
+作業２：練習完建議參考補充資料，觀看更多回歸模型的範例
+
+請參考範例程式碼 Day_038_regression_model.ipynb，作業請提交Day_038_HW.ipynb
