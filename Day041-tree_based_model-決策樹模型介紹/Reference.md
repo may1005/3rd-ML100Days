@@ -3,8 +3,8 @@
 
 閱讀以下兩篇文獻，了解決策樹原理，並試著回答後續的問題
 
-決策樹 (Decision Tree) - 中文
-how decision tree works - 英文
+[決策樹 (Decision Tree) - 中文](https://medium.com/@yehjames/資料分析-機器學習-第3-5講-決策樹-decision-tree-以及隨機森林-random-forest-介紹-7079b0ddfbda)<br>
+[how decision tree works - 英文](http://dataaspirant.com/2017/01/30/how-decision-tree-algorithm-works/)
 
 作業１：在分類問題中，若沒有任何限制，決策樹有辦法在訓練時將 training loss 完全降成 0 嗎？
 
