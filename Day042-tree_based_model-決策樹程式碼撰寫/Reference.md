@@ -1,11 +1,8 @@
 # 參考資料
 ## Sample Code & 作業內容
-請閱讀相關文獻，並回答下列問題：
+請參考範例程式碼Day_042_decision_tree.ipynb
 
-- [脊回歸 (Ridge Regression)](https://blog.csdn.net/daunxx/article/details/51578787)
-- [Linear, Ridge, Lasso Regression 本質區別](https://www.zhihu.com/question/38121173)
+作業1：試著調整 DecisionTreeClassifier(...) 中的參數，並觀察是否會改變結果？
+作業2：改用其他資料集 (boston, wine)，並與回歸模型的結果進行比較
 
-作業１：LASSO 回歸可以被用來作為 Feature selection 的工具，請了解 LASSO 模型為什麼可用來作 Feature selection
-作業２：當自變數 (X) 存在高度共線性時，Ridge Regression 可以處理這樣的問題嗎?
-
-作業請提交Day_039_HW.ipynb
+作業請提交Day_042_HW.ipynb
