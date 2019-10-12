@@ -1,11 +1,14 @@
 # 參考資料
 ## Sample Code & 作業內容
-請閱讀相關文獻，並回答下列問題：
+閱讀以下兩篇文獻，了解隨機森林原理，並試著回答後續的思考問題<br>
+[隨機森林 (random forest) - 中文](http://hhtucode.blogspot.com/2013/06/ml-random-forest.html)<br>
+[how random forest works - 英文](https://medium.com/@Synced/how-random-forest-algorithm-works-in-machine-learning-3c0fe15b6674)<br>
 
-- [脊回歸 (Ridge Regression)](https://blog.csdn.net/daunxx/article/details/51578787)
-- [Linear, Ridge, Lasso Regression 本質區別](https://www.zhihu.com/question/38121173)
+1. 隨機森林中的每一棵樹，是希望能夠<br>
+沒有任何限制，讓樹可以持續生長 (讓樹生成很深，讓模型變得複雜)<br>
+不要過度生長，避免 Overfitting<br>
 
-作業１：LASSO 回歸可以被用來作為 Feature selection 的工具，請了解 LASSO 模型為什麼可用來作 Feature selection
-作業２：當自變數 (X) 存在高度共線性時，Ridge Regression 可以處理這樣的問題嗎?
+2. 假設總共有 N 筆資料，每棵樹用取後放回的方式抽了總共 N 筆資料生成，請問這棵樹大約使用了多少 % 不重複的原資料生成?<br>
+hint: 0.632 bootstrap<br>
 
-作業請提交Day_039_HW.ipynb
+作業請提交Day_043_HW.ipynb
