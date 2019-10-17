@@ -14,9 +14,20 @@
 
 ## 父節點決定
 
-熵資訊量越小越好，
-資訊增量越大越好，
-Gini資訊量越小越好。
+* 熵資訊量越小越好，
+* 資訊增量越大越好，
+* Gini資訊量越小越好。
+
+## 熵資訊量
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Binary_entropy_plot.svg/400px-Binary_entropy_plot.svg.png)
+
+x軸是事件機率，y軸是熵資訊量，<br>
+x軸是事件機率 = 0 和 1 的時候，y軸的熵資訊量為0，因為最穩定，<br>
+x軸是事件機率 = 0.5 的時候，y軸的熵資訊量為0.5，因為最浮動，<br>
+所以熵資訊量越小，越好越穩定，越可以當決策樹父節點。
+
+## 決策樹youtube影片
 
 決策樹判斷父節點、區間之程式實作youtube影片：
 https://youtu.be/IgH5kJmIr6s
