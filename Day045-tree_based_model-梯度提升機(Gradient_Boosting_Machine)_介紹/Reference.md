@@ -8,3 +8,23 @@
 - [深入了解 Gradient-boosting - 英文](https://explained.ai/gradient-boosting/index.html)
 
 完成閱讀後，請記得到下方按下完成作業。
+
+## 梯度提升機
+
+- 使用boosting方法
+- 針對「Error分錯的」再加重權限分類
+- 可降低Bias
+
+![](https://hackernoon.com/hn-images/1*_OR57AG1IjL2yqYXMTtOGw.png)
+
+![](https://miro.medium.com/max/1700/0*paPv7vXuq4eBHZY7.png)
+
+![](https://static.packt-cdn.com/products/9781788295758/graphics/image_04_046-1.png)
+
+多棵有權重的樹<br>
+![](https://miro.medium.com/max/1026/1*q9D2Lr9Uw8xvUjlj7OmMow.png)
+
+## 隨機森林(bagging) & 梯度提升機(boosting)
+
+![](https://miro.medium.com/max/3288/1*GNO2x4yFFhe_Enr_X8wfVw.png)
+
