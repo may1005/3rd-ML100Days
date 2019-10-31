@@ -1,5 +1,3 @@
 # 參考資料
 ## Sample Code & 作業內容
-作業：請至檢視範例參考 Day_056_kmean 範例，試著模擬出 5 群高斯分布的資料, 並以此觀察 K-mean 與輪廓分析的結果
-
-作業請提交 Day_056_HW
+請參考範例程式碼Day_059_PCA_sample.ipynb，用 digits (3個數字即可 , dataset.load_digits(n_class=3)) 資料嘗試跑 PCA，作業請提交Day_059_HW.ipynb
