@@ -1,3 +1,12 @@
 # 參考資料
 ## Sample Code & 作業內容
-請參考範例程式碼Day_059_PCA_sample.ipynb，用 digits (3個數字即可 , dataset.load_digits(n_class=3)) 資料嘗試跑 PCA，作業請提交Day_059_HW.ipynb
+選擇迴歸資料集(右) - 交錯六群，在其他參數保持預設值的情況下，只允許調整隱藏層層數與神經元數量，且遵守下列限制：
+
+隱藏層神經元總數最多 8 個 (即 : 可以單層 8 個，或兩層 5 個與 3 個)
+遞迴次數只允許跑到 500 次
+
+作業：在上述限制下，挑戰看看測試誤差 (Test Loss) 最低能到多少? 請回答你的神經元參數與 Test Loss 數
+
+![](https://ai100-fileentity.cupoy.com/3rd/homework/D64/1569472798232/large)
+
+作業請提交Day_064_HW
