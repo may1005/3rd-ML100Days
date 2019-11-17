@@ -9,7 +9,7 @@
 ## 類神經網路
 1. 透過輸入層、隱藏層和輸出層結合，將Ｘi * Wi + B合計再帶入active function中，以"前向傳遞"推測出^Y
 2. 再類似監督式學習，會用Loss function計算Y和^Y的誤差。
-3. 再以"後向傳遞"tunning出Ｂ和Ｗ
+3. 再以"後向傳遞"tunning出Ｂ和Ｗ，其中W反推新的W會使用到Learning Rate
 4. 多次迭代前後傳遞，算出Loss最小收斂
 
 參考[類神經網路 -- Backward Propagation 詳細推導過程](http://cpmarkchang.logdown.com/posts/277349-neural-network-backward-propagation)，
